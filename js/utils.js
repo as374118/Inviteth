@@ -7,10 +7,10 @@ function getParamFromUrl (name) {
     return result;
 }
 
-function showMode(conentId) {
+function showMode(contentId) {
     // TODO
     $('.modeContentBox').hide();
-    $(conentId).show();
+    $(contentId).show();
 }
 
 function encryptWithPassword(content, password) {
