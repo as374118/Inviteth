@@ -1,7 +1,7 @@
 # Inviteth
 
 
-# PROJECT MOTIVATION
+# Motivation
 
 Let's start with a real life story. I wanted to give some ethers to my friend on this New Year's day. Giving money can look like the least original gift (however it's common practice on Chinese New Year's Day) but I think it does not work for crypto, because it's like giving a peace of future. My friend had no experience with crypto before. He is not a technical guy, he is more like a typical user, who wants to make minimal steps to get things done. That's why I thought how to make the whole process in the easiest way for him.
 
@@ -22,7 +22,7 @@ I have spent about an hour to create this manual. And what is the worst - my fri
 To simplify everything in this process I have decided to create Inviteth (Invitation to ethereum) - tool which allows sending ethers to people without accounts.
 
 
-# PROJECT DESCRIPTION
+# Description
 
 Invitech is a very lightweight web application created with Vue.js. It doesn't have server side. It's not even a DApp (I mean it doesn't include any smart contracts).
 
@@ -41,7 +41,7 @@ It has 2 modes:
 
 Special shareable links have private key for shared account encoded in GET parameters. So these links will be quite long. You can shorten it using link shortener you trust (like bit.ly). Then it could be converted to QR codes or be printed on nice giving coins.
 
-# SIMILAR PROJECTS
+# Similar projects
 
 
 
@@ -49,13 +49,7 @@ Special shareable links have private key for shared account encoded in GET param
 *   
 
 
-# POTENTIAL IMPROVEMENTS
-
-
-## More security
-
-Having a link which gives an access to money could seem insecure. So in future we could add an additional password mechanism. It also will not require server side for application. Because all information attached to link will be encrypted with the password created by giver. In that case giver will give a link and this secret password to receiver.
-
+# Potential improvements
 
 ## UI to undo link creation
 
