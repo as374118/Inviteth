@@ -3,11 +3,9 @@
 
 # PROJECT MOTIVATION
 
-I will just tell story from my life. I wanted to give some ethers to my friend on this New Year's day. Giving money can look like the least original gift (however it's common practice on Chinese New Year's Day) but I think it does not work for crypto, because it's like giving a peace of future. My friend had no experience with crypto before. He is not a technical guy, he is more like a typical user, who wants to make minimal steps to get things done. That's why I thought how to make the whole process in the easiest way for him.
+Let's start with a real life story. I wanted to give some ethers to my friend on this New Year's day. Giving money can look like the least original gift (however it's common practice on Chinese New Year's Day) but I think it does not work for crypto, because it's like giving a peace of future. My friend had no experience with crypto before. He is not a technical guy, he is more like a typical user, who wants to make minimal steps to get things done. That's why I thought how to make the whole process in the easiest way for him.
 
 So, what I've done (assuming I wanted to give X eths):
-
-
 
 *   I have created new ethereum account (let's call it shared account)
 *   I have transferred X ethers to this newly created account
@@ -42,33 +40,6 @@ It has 2 modes:
     *   If you have web3 enabled browser money from so called shared account will be automatically sent to your main eth account
 
 Special shareable links have private key for shared account encoded in GET parameters. So these links will be quite long. You can shorten it using link shortener you trust (like bit.ly). Then it could be converted to QR codes or be printed on nice giving coins.
-
-
-# HOW ALICE CAN USE IT
-
-
-### Tokens giving
-
-Inviteth can be extended and have mechanisms for giving any kind of tokens for people with link or QR code. It could be very helpful on some events where we want to give tokens (such as investment bonds) to try (as DAI did (but our solution will work ;) ).
-
-
-### Community
-
-Also doing something for community (like this project) can increase our chances to get grants and we will be able to refer to it in our applications.
-
-Thanks to simplicity this project can be created quite quickly and it doesn't require any additional efforts from our side to keep it alive. So we will have additional open source good project from Alice :)
-
-
-### Winning the hackathon (ethDenver)
-
-I believe that we can win the hackathon with this project because we will have answers to the following questions:
-
-
-
-*   Who will use it? - Every ether keeper who want to give ethers to non-geeks
-*   Why is it helpful? - Because it saves giver's and receiver's time and simplifies their lives.
-*   How can it help to develop ethereum? - It helps to invite new people to the network, what obviously is good for ethereum.
-
 
 # SIMILAR PROJECTS
 
