@@ -12,3 +12,11 @@ function showMode(conentId) {
     $('.modeContentBox').hide();
     $(conentId).show();
 }
+
+function encryptWithPassword(content, password) {
+    return CryptoJS.Rabbit.encrypt(content, password).toString();
+}
+
+function decryptWithPassword(encyptedContent, password) {
+    return CryptoJS.Rabbit.decrypt(encyptedContent, password).toString(CryptoJS.enc.Utf8);
+}
