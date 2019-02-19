@@ -7,16 +7,20 @@ function getParamFromUrl (name) {
     return result;
 }
 
-function showMode(contentId) {
+function showMode (contentId) {
     // TODO
     $('.modeContentBox').hide();
     $(contentId).show();
 }
 
-function encryptWithPassword(content, password) {
+function encryptWithPassword (content, password) {
     return CryptoJS.Rabbit.encrypt(content, password).toString();
 }
 
-function decryptWithPassword(encyptedContent, password) {
+function decryptWithPassword (encyptedContent, password) {
     return CryptoJS.Rabbit.decrypt(encyptedContent, password).toString(CryptoJS.enc.Utf8);
+}
+
+function getCheckParamDefaultValue () {
+    return 'ajs213dsdsdsdds3212342';
 }

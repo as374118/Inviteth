@@ -1,5 +1,7 @@
 let appState = {
     mode: 'home', // enum: ['home', 'sending', 'receiving']
+    privateKey: '',
+    // amount: 0,
 };
 
 window.onload = function () {
